@@ -1,0 +1,27 @@
+# ---------- WorkBuddy 项目数据（本地工作日志，不公开） ----------
+.workbuddy/
+
+# ---------- 大数据文件 / 遗留文件（公开数据集，体积过大，不纳入版本控制） ----------
+# 数据可通过 Kaggle「Brazilian E-Commerce Public Dataset」公开下载
+data/raw/
+data/olist.db
+notebooks/data/
+archive.zip
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- macOS ----------
+.DS_Store
+
+# ---------- IDE ----------
+.idea/
+.vscode/
